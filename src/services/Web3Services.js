@@ -1,8 +1,7 @@
-
 import ABI from "./ABI.json";
 import Web3 from "web3";
 
-const CONTRACT_ADDRESS = "0xB3a695654291DaE26EEd4365f1210BBac84700A1";
+const CONTRACT_ADDRESS = "0xB3a695654291DaE26EEd4365f1210BBac84700A1";//Deploy na rede de testes da Polygon -> https://amoy.polygonscan.com/address/0xb3a695654291dae26eed4365f1210bbac84700a1
 
 export async function doLogin(){
     if(!window.ethereum) throw new Error("MetaMask não encontrada!");
